@@ -1,21 +1,159 @@
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 <!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
+
+<div style="text-align:center; background-color: white" >
   <h1>
-    Welcome to {{ title }}!
+    Juego de {{ title }}
   </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
 </div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+
+<div style="background-color:rgb(204, 51, 51); width:75%; height: 590px; margin-left: 10%;border-style: solid; border-width: 3px, black ">
+  <br>
+  <div style="background-color: none; width:700px; height: 550px; margin-left: 3%;">
+      <div style="width:100%; height: 560px; margin-left: 0%" >
+      <!-- First column -->
+      <ul style="list-style-type:none" style="margin-left:0%; padding: 0rem;">
+        <li class="black" id="a8"><img id="tb1" src="https://img.icons8.com/ios/50/000000/rook.png"> </li>
+        <li class="white" id="b8"><img id="cb1" src="https://img.icons8.com/ios/50/000000/knight.png"></li>
+        <li class="black" id="c8"><img id="ab1" src="https://img.icons8.com/ios/50/000000/bishop.png"></li>
+        <li class="white" id="d8"><img id="db" src="https://img.icons8.com/ios/50/000000/queen.png"></li>
+        <li class="black" id="e8"><img id="rb" src="https://img.icons8.com/ios/50/000000/king.png"></li>
+        <li class="white" id="f8"><img id="ab2" src="https://img.icons8.com/ios/50/000000/bishop.png"></li>
+        <li class="black" id="g8"><img id="cb2" src="https://img.icons8.com/ios/50/000000/knight.png"></li>
+        <li class="white" id="h8"><img id="tb2" src="https://img.icons8.com/ios/50/000000/rook.png"></li>
+      </ul>
+
+      <ul style="list-style-type:none" style="margin-left:0%; padding-left: 0rem; ">
+        <li class="white" id="a7"> <img id="pb1" src="https://img.icons8.com/ios/50/000000/pawn.png"></li>
+        <li class="black" id="b7"><img  id="pb2" src="https://img.icons8.com/ios/50/000000/pawn.png"></li>
+        <li class="white" id="c7"><img  id="pb3" src="https://img.icons8.com/ios/50/000000/pawn.png"></li>
+        <li class="black" id="d7"><img  id="pb4" src="https://img.icons8.com/ios/50/000000/pawn.png"></li>
+        <li class="white" id="e7"><img  id="pb5" src="https://img.icons8.com/ios/50/000000/pawn.png"></li>
+        <li class="black" id="f7"><img  id="pb6" src="https://img.icons8.com/ios/50/000000/pawn.png"></li>
+        <li class="white" id="g7"><img  id="pb7" src="https://img.icons8.com/ios/50/000000/pawn.png"></li>
+        <li class="black" id="h7"><img  id="pb8" src="https://img.icons8.com/ios/50/000000/pawn.png"></li>
+      </ul>
+
+      <ul style="list-style-type:none" style="margin-left:0%; padding-left: 0rem; ">
+        <li class="black" id="a6"></li>
+        <li class="white" id="b6"></li>
+        <li class="black" id="c6"></li>
+        <li class="white" id="d6"></li>
+        <li class="black" id="e6"></li>
+        <li class="white" id="f6"></li>
+        <li class="black" id="g6"></li>
+        <li class="white" id="h6"></li>
+      </ul>
+
+      <ul style="list-style-type:none" style="margin-left:0%; padding-left: 0rem; ">
+        <li class="white" id="a5"></li>
+        <li class="black" id="b5"></li>
+        <li class="white" id="c5"></li>
+        <li class="black" id="d5"></li>
+        <li class="white" id="e5"></li>
+        <li class="black" id="f5"></li>
+        <li class="white" id="g5"></li>
+        <li class="black" id="h5"></li>
+      </ul>
+      
+      <ul style="list-style-type:none" style="margin-left:0%; padding-left: 0rem; ">
+        <li class="black" id="a4"></li>
+        <li class="white" id="b4"></li>
+        <li class="black" id="c4"></li>
+        <li class="white" id="d4"></li>
+        <li class="black" id="e4"></li>
+        <li class="white" id="f4"></li>
+        <li class="black" id="g4"></li>
+        <li class="white" id="h4"></li>
+      </ul>
+
+      <ul style="list-style-type:none" style="margin-left:0%; padding-left: 0rem; ">
+        <li class="white" id="a3"></li>
+        <li class="black" id="b3"></li>
+        <li class="white" id="c3"></li>
+        <li class="black" id="d3"></li>
+        <li class="white" id="e3"></li>
+        <li class="black" id="f3"></li>
+        <li class="white" id="g3"></li>
+        <li class="black" id="h3"></li>
+      </ul>
+      
+      <ul style="list-style-type:none" style="margin-left:0%; padding-left: 0rem; ">
+        <li class="black" id="a2"><img id="pn1" src="https://img.icons8.com/ios/50/000000/pawn-filled.png"></li>
+        <li class="white" id="b2"><img id="pn2" src="https://img.icons8.com/ios/50/000000/pawn-filled.png"></li>
+        <li class="black" id="c2"><img id="pn3" src="https://img.icons8.com/ios/50/000000/pawn-filled.png"></li>
+        <li class="white" id="d2"><img id="pn4" src="https://img.icons8.com/ios/50/000000/pawn-filled.png"></li>
+        <li class="black" id="e2"><img id="pn5" src="https://img.icons8.com/ios/50/000000/pawn-filled.png"></li>
+        <li class="white" id="f2"><img id="pn6" src="https://img.icons8.com/ios/50/000000/pawn-filled.png"></li>
+        <li class="black" id="g2"><img id="pn7" src="https://img.icons8.com/ios/50/000000/pawn-filled.png"></li>
+        <li class="white" id="h2"><img id="pn8" src="https://img.icons8.com/ios/50/000000/pawn-filled.png"></li>
+      </ul>
+
+      <ul style="list-style-type:none" style="margin-left:0%; padding-left: 0rem; ">
+        <li class="white" id="a1"><img id="tn1" src="https://img.icons8.com/ios/50/000000/rook-filled.png"></li>
+        <li class="black" id="b1"><img id="cn1" src="https://img.icons8.com/ios/50/000000/knight-filled.png"></li>
+        <li class="white" id="c1"><img id="an1" src="https://img.icons8.com/ios/50/000000/bishop-filled.png"></li>
+        <li class="black" id="d1"><img id="dn" src="https://img.icons8.com/ios/50/000000/queen-filled.png"></li>
+        <li class="white" id="e1"><img id="rn" src="https://img.icons8.com/ios/50/000000/king-filled.png"></li>
+        <li class="black" id="f1"><img id="an2" src="https://img.icons8.com/ios/50/000000/bishop-filled.png"></li>
+        <li class="white" id="g1"><img id="cn2" src="https://img.icons8.com/ios/50/000000/knight-filled.png"></li>
+        <li class="black" id="h1"><img id="tn2" src="https://img.icons8.com/ios/50/000000/rook-filled.png"></li>
+        
+      </ul>
+      
+      
+
+    </div>
+  </div>
+  <h4 style="position:absolute; top:10%; left:850px;">Movimiento Blanco</h4>
+  <input placeholder="Posicion de la pieza a mover" type="text" style="position:absolute; top:14%; left: 850px; width: 210px;">
+  <input placeholder="Posicion a donde se movera" type="text" style="position:absolute; top:18%; left: 850px; width: 210px; ">
+  <input type="button" value="Ingresar"  style="position:absolute; top:22%;left: 850px;">
+
+  <h4 style="position:absolute; top:28%; left:850px;">Movimiento Negra</h4>
+  <input placeholder="Posicion de la pieza a mover" type="text" style="position:absolute; top:32%; left: 850px; width: 210px;">
+  <input placeholder="Posicion a donde se movera" type="text" style="position:absolute; top:36%; left: 850px; width: 210px;">
+  <input type="button" value="Ingresar" style="position:absolute; top:40%;left: 850px;">
+
+  <h4 style="position:absolute; top:45%; left:850px;">Aperturas</h4>
+  <div style="background-color: white; height: 175px; width: 200px; position: absolute; top: 50%; left: 850px; border-style: solid; border-width: 3px, black ">
+    <div class="custom-control custom-radio" style="margin-left:2%;">
+      <input type="radio" (click)="ninguna()" class="custom-control-input" id="defaultGroupExample7" name="groupOfDefaultRadios">
+      <label class="custom-control-label" for="defaultGroupExample7">Ninguna</label>
+    </div>
+    
+    <div class="custom-control custom-radio" style="margin-left:2%;">
+      <input type="radio" (click)="Abierta()" class="custom-control-input" id="defaultGroupExample1" name="groupOfDefaultRadios">
+      <label class="custom-control-label" for="defaultGroupExample1">Abierta</label>
+    </div>
+    
+    <div class="custom-control custom-radio" style="margin-left:2%;">
+      <input type="radio" (click)="Espanola()" class="custom-control-input" id="defaultGroupExample2" name="groupOfDefaultRadios" checked>
+      <label class="custom-control-label" for="defaultGroupExample2">Española</label>
+    </div>
+    
+    <div class="custom-control custom-radio" style="margin-left:2%;">
+      <input type="radio" (click)="Ponziani()" class="custom-control-input" id="defaultGroupExample3" name="groupOfDefaultRadios">
+      <label class="custom-control-label" for="defaultGroupExample3">Ponziani</label>
+    </div>
+
+    <div class="custom-control custom-radio" style="margin-left:2%;">
+      <input type="radio" (click)="Escocesa()" class="custom-control-input" id="defaultGroupExample4" name="groupOfDefaultRadios">
+      <label class="custom-control-label" for="defaultGroupExample4">Escocesa</label>
+    </div>
+
+    <div class="custom-control custom-radio" style="margin-left:2%;"> 
+      <input type="radio" (click)="Italiana()" class="custom-control-input" id="defaultGroupExample5" name="groupOfDefaultRadios">
+      <label class="custom-control-label" for="defaultGroupExample5">Italiana</label>
+    </div>
+
+    <div class="custom-control custom-radio" style="margin-left:2%;">
+      <input type="radio" (click)="Gambito()" class="custom-control-input" id="defaultGroupExample6" name="groupOfDefaultRadios">
+      <label class="custom-control-label" for="defaultGroupExample6">Gambito Evans</label>
+    </div>
+  </div>
+</div>
+
+
 
 <router-outlet></router-outlet>

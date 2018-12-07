@@ -1,0 +1,33 @@
+.social-box {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-top: 0%;
+    margin-left: 7.5px;
+    background-color: none;
+    text-align: center;
+  }
+  
+  .social-box:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -0.25em; /* Adjusts for spacing */
+  }
+  
+  .social-box a {  
+    color: white;
+    font-size: 35px; 
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  .container div:last-child {
+    margin-right: 0;
+  }
+
+  img{
+    margin-bottom: 30%;
+  }
